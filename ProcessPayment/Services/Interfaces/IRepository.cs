@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ProcessPayment.Services.Interfaces
 {
-    internal interface IRepository<T>
+    public interface IRepository<T>
     {
         Task<IEnumerable<T>> FindAll();
 

@@ -6,7 +6,7 @@ using ProcessPayment.Models;
 
 namespace ProcessPayment.Services.Interfaces
 {
-    internal interface IPaymentStateRepository : IRepository<PaymentState>
+    public interface IPaymentStateRepository : IRepository<PaymentState>
     {
     }
 }

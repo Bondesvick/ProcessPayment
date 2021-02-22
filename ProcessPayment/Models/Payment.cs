@@ -26,5 +26,7 @@ namespace ProcessPayment.Models
 
         [Required]
         public Decimal Amount { get; set; }
+
+        public PaymentState PaymentState { get; set; }
     }
 }

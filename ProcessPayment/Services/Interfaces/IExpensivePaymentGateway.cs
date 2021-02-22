@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ProcessPayment.Services.Interfaces
 {
-    interface IExpensivePaymentGateway
+    public interface IExpensivePaymentGateway
     {
     }
 }

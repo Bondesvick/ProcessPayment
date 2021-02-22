@@ -6,20 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProcessPayment.Dtos
 {
-    public class PaymentDto
+    public class GetPaymentDto
     {
-        [Required]
         public string CreditCardNumber { get; set; }
 
-        [Required]
         public string CardHolder { get; set; }
 
-        [Required]
         public DateTime ExpirationDate { get; set; }
 
         public string SecurityCode { get; set; }
 
-        [Required]
         public Decimal Amount { get; set; }
+        public string PaymentState { get; set; }
     }
 }

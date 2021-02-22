@@ -6,7 +6,8 @@ using ProcessPayment.Models;
 
 namespace ProcessPayment.Services.Interfaces
 {
-    internal interface IPaymentRepository : IRepository<Payment>
+    public interface IPaymentRepository : IRepository<Payment>
     {
+        Task<IEnumerable<Payment>> LoadAllPaymentProperties();
     }
 }
